@@ -1,0 +1,49 @@
+html{
+    font-family:'Roboto Mono',monospace;
+}
+#welcome{
+    font-weight:100;
+    font-size:23px;
+    color:#b8b8b8;
+}
+#date{
+    font-weight:100;
+    font-size:23px;
+    color:#b8b8b8;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.room{
+    height:100%;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+#temp{
+    font-weight:bold;
+    font-size:38px;
+    color:#b8b8b8;
+    padding-top: 150px;
+}
+.container{
+    height:100%;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+.text{
+  font-weight:100;
+  font-size:34px;
+  color:#181818;
+  padding-top: 100px;
+}
+
+body{
+    background-image: url('bkg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
