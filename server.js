@@ -20,8 +20,7 @@ app.get('/device/:device/temperature', async (req, res) => {
     const query = `SELECT recorded_at, reading::float as temperature 
         FROM sensor_data 
         WHERE measurement = 'temperature' 
-        AND device = $1
-        LIMIT 2`;
+        AND device = $1;`
     const params = [device];
     console.log(query, params);
 
